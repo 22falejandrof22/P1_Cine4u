@@ -24,7 +24,7 @@
     }
 
     nav ul li {
-        margin: 0 100px;
+        margin: 0 70px;
     }
 
     nav ul li a {
@@ -97,6 +97,11 @@
         text-align: center;
         font-weight: bold;
     }
+     /* Recurso */
+    h3 {
+        color: #9c0c0c;
+        text-align: center;
+    }
     
     h5{
         font-size: 60px;
@@ -128,6 +133,38 @@
         border: 1px; 
         border-radius: 15px;
     }
-    
 /* FINAL TEXTO */
 
+
+/* CONTACTOS */
+.card-group {
+  
+    margin: 50px 200px; /* Espaciado horizontal y vertical */
+}
+.contac{
+    background-color: #d0d0d0;
+    text-align: center;   /* Centra el texto horizontalmente */
+    font-size: 30px;     /* Aumenta el tamaño de la fuente (ajusta el tamaño según tus necesidades) */
+    color: #333;         /* Puedes cambiar el color si lo deseas */
+}
+.con{
+    margin: 20px 100px
+;
+}
+.cap{    
+    text-align: center;   /* Centra el texto horizontalmente */
+    font-size: 30px;     /* Aumenta el tamaño de la fuente (ajusta el tamaño según tus necesidades) */
+    color: #333; 
+}
+
+/* FINAL CONTACTOS */
+
+
+/* HOVER CARTELES */
+.imag:hover {
+    opacity: 50%;
+}
+
+.soldout:hover {
+   opacity: 100%;
+}
