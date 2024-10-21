@@ -39,67 +39,13 @@
 
 /* FINAL NAVEGADOR */
 
-/* RECUADROS */
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-        margin-top: 0px;
-    }
-/* FINAL RECUADROS */
-
-/* FILAS Y COLUMNAS */
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin-bottom: 20px;
-    }
-
-    .col {
-        flex: 1;
-        min-width: 300px;
-        margin: 10px;
-        padding: 20px;
-        background-color: #f1f1f1;
-        border-radius: 8px;
-    }
-/* FINAL FILAS Y COLUMNAS */
-
-/* TEXTO */
-    /* Titulos */
-    h1, h2 {
-        color: #333;
-        text-align: center;
-        
-       
-    }
-    h5{
-        font-size: 60px;
-        font-weight: bold;
-        color: goldenrod;
-        text-shadow:  -4px 0px 0px rgb(0, 0, 0);
-    }
-    /* Paragrafos */
-    p {
-        color: #666;
-    }
-    .p1 {
-        text-align: center;
-    }
-    
-/* FINAL TEXTO */
 
 /* CAROUSEL */
 .carousel-item{
     margin-top: 0px;
     height: 500px;
 }
-.presentacion{
-    opacity: 1;
-    background-color: transparent;
 
-}
 .col-md-6{
     opacity: 0.9;
     margin-top: 120px;
@@ -108,3 +54,80 @@
     height: auto;
 }
 /* FINAL CAROUSEL */
+
+/* RECUADROS */
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        margin-top: 0px;
+        /* poner_____el____BG___de___la_____imagen____de___sangre */
+    }
+/* FINAL RECUADROS */
+
+/* FILAS Y COLUMNAS */
+    .row {
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 5px;
+    }
+
+    .col {
+        flex: 1;
+        min-width: 300px;
+        margin: 5px;
+        padding: 0px;
+        background-color: goldenrod;
+        border-radius: 1px;
+    }
+/* FINAL FILAS Y COLUMNAS */
+
+/* TEXTO */
+    /* Titulos */
+    h1{
+        color: #000000;
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;
+    } 
+    h2 {
+        color: #000000;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    h5{
+        font-size: 60px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        text-shadow:  -6px 0px 3px rgb(0, 0, 0);
+    }
+    /* Paragrafos */
+    p {
+        color: #000000;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+    /* Paragrafos CENTRADO*/
+    .p1 {
+        text-align: center;
+    }
+    /* Tipografia____HALLOWEEN________POR________HACER*/
+    .terror{
+    font-family: 'CFNightofTerrorPERSONAL-Reg';
+    src: url('CFNightofTerrorPERSONAL-Reg.ttf') format('truetype');
+    }
+    /* Caja texto____FALTA QUE SE AJUSTE AL TEXTO*/
+    .cajafondo
+    {
+        display: inline-block;
+        background-color: rgba(255, 255, 255, 0.235);
+        padding: 2px;
+        border: 1px; 
+        border-radius: 15px;
+    }
+    
+/* FINAL TEXTO */
+
