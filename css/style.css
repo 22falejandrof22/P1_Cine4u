@@ -1,13 +1,14 @@
     /* styles.css */
 
-    /* Reset de marges i padding */
+/* MARGENES Y PADDING */
     body {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
     }
+/* FINAL MARGENES Y PADDING */
 
-    /* Estils per a la navbar */
+/* NAVEGADOR */
     nav {
         background-color: #000000;
         padding: 5px;
@@ -36,14 +37,18 @@
         color: #55a1ff; 
     }
 
-    /* Estils per al contenidor principal */
+/* FINAL NAVEGADOR */
+
+/* RECUADROS */
     .container {
         max-width: 1200px;
         margin: 0 auto;
         padding: 20px;
+        margin-top: 0px;
     }
+/* FINAL RECUADROS */
 
-    /* Estils per a les files i columnes */
+/* FILAS Y COLUMNAS */
     .row {
         display: flex;
         flex-wrap: wrap;
@@ -59,21 +64,35 @@
         background-color: #f1f1f1;
         border-radius: 8px;
     }
+/* FINAL FILAS Y COLUMNAS */
 
-
-
-    /* Estils per a títols i paràgrafs */
+/* TEXTO */
+    /* Titulos */
     h1, h2 {
         color: #333;
+        text-align: center;
+        
+       
     }
-
+    h5{
+        font-size: 60px;
+        font-weight: bold;
+        color: goldenrod;
+        text-shadow:  -4px 0px 0px rgb(0, 0, 0);
+    }
+    /* Paragrafos */
     p {
         color: #666;
     }
-.container1{
-margin-top: 0px;
-}
+    .p1 {
+        text-align: center;
+    }
+    
+/* FINAL TEXTO */
+
+/* CAROUSEL */
 .carousel-item{
+    margin-top: 0px;
     height: 500px;
 }
 .presentacion{
@@ -88,4 +107,4 @@ margin-top: 0px;
     width:auto;
     height: auto;
 }
-
+/* FINAL CAROUSEL */
