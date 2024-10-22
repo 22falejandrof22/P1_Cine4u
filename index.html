@@ -14,24 +14,34 @@
 <!-- NAVEGADOR/MENU -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#arriba"><img src="logo-1_Mesa de trabajo 1.png" width="100" height="100"></a>
+            <a class="navbar-brand" href="#"><img src="logo-1_Mesa de trabajo 1.png" width="100" height="100"></a>
+            <li class="nav-item">
+                <a  href="#"><h7>CINE<span style="color: rgb(54, 101, 228);">4</span>U</h7></a>
+            </li>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav" href="#cartellera">Cartellera</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <h6>Cartelera</h6>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Halloween</a></li>
+                          <li><a class="dropdown-item" href="#">Acción</a></li>
+                          <li><a class="dropdown-item" href="#">Aventuras</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav" href="#especial">Esdeveniments</a>
+                        <a class="nav" href="#especial">Especial</a>
                     </li>
                     <!-- id's aún no linkados -->
                     <li class="nav-item">
-                        <a class="nav" href="#preus">Preus</a>
+                        <a class="nav" href="#preus">Precios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav" href="#contacte">Contacte</a>
+                        <a class="nav" href="#seccion contacte">Contacto</a>
                     </li>
                     
                 </ul>
@@ -43,7 +53,7 @@
 
 
 <!-- CAROUSEL -->
-    <div class="col-md-6">
+    <div class="col-md-6_1">
    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -90,7 +100,7 @@
 <!-- PAG1--> 
  <div class="container">
               <h1>ESPECIAL HALLOWEEN </h1>
-                <div class="p1"> <p>DEL 20 DE OCTUBRE AL 10 DE NOVIEMBRE VUELVEN LOS CLÁSICOS DEL TERROR</p> </div>
+                <div class="p1"> <p>DEL 20 DE OCTUBRE AL 10 DE NOVIEMBRE OFERTAS LOS CLÁSICOS DEL TERROR</p> </div>
         </div>
       </div>
 
@@ -154,7 +164,7 @@
 
 <!-- PAG2 -->
     <div class="container">
-        <div class="row" id="main">
+        <div class="row" id="section2">
             <div class="col">
                 <h1>Welcome to our first website</h1>
                 <div class="p1"><p>This is a text to greet our visitors.</p></div>
@@ -174,7 +184,55 @@
                 <p>This is a paragraph under the h2 title.</p>
             </div>
         </div>
+    
+        
+      <!-- Contacte -->  
     </div>
-
+    <p class="contac" id="seccion contacte" ><strong>Contacto</strong></p>
+    <form class="con">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Nombre Completo</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Número de telefono</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="34+">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Dirección</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, estudio, or planta">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Estado</label>
+          <select id="inputState" class="form-select">
+            <option selected>Escoger...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="inputZip" class="form-label">Comentario/Aportación</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Aceptar Cookies
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+      <!-- FINAL Contacte -->
 </body>
 </html>
