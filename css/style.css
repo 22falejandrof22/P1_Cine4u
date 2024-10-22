@@ -21,10 +21,14 @@
         padding: 0;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     nav ul li {
         margin: 0 70px;
+    }
+    .nav-link dropdown-toggle{
+        color: #f7f7f7;
     }
 
     nav ul li a {
@@ -40,13 +44,19 @@
 /* FINAL NAVEGADOR */
 
 
+/* ENLACES */
+    a {
+        text-decoration: none;
+    }
+/* FINAL ENLACES */
+
 /* CAROUSEL */
 .carousel-item{
     margin-top: 0px;
     height: 500px;
 }
 
-.col-md-6{
+.col-md-6_1{
     opacity: 0.9;
     margin-top: 120px;
     max-width: 100%;
@@ -105,11 +115,41 @@
         text-align: center;
     }
     
-    h5{
+    h5 {
         font-size: 60px;
         font-weight: bold;
         color: rgb(255, 255, 255);
         text-shadow:  -6px 0px 3px rgb(0, 0, 0);
+    }
+    h6 {text-decoration: none;
+        color: #ffffff ;
+        font-weight: bold;
+        list-style-type: none;
+        margin: 0;  
+        font-size: 25px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 200 250px;
+        margin-top: 34px;
+    }
+
+    h6:hover{
+        color: #55a1ff; 
+    }
+    
+    h7 {
+        margin-left: -45px;
+        color: #0b0b0b;
+        font-size: 30px;
+        font-weight: bold;
+        text-shadow:  -1px 0px 1px rgb(0, 0, 0);
+        padding: 8px;
+        border-radius: 5px;
+        background-color: #f7f7f7;
+        font-family: myriad-variable, sans-serif;
+        letter-spacing: 5px;
     }
     /* Paragrafos */
     p {
@@ -129,16 +169,41 @@
         src: url(../Halloween.ttf);
     }
     /* Caja texto____FALTA QUE SE AJUSTE AL TEXTO*/
-    .cajafondo
-    {
+    .cajafondo {
         display: inline-block;
         background-color: rgba(255, 255, 255, 0.235);
         padding: 2px;
         border: 1px; 
         border-radius: 15px;
     }
+    .contac{
+        background-color: rgb(2, 2, 2);
+        text-align: center;   
+        font-size: 30px;     
+        color: #f7f7f7;    
+    }
+    .con{
+        margin: 10px auto;  
+        background-color: rgb(255, 255, 255);
+        line-height: 2;
+    }
+    .col-md-6{
+        margin: 0px;
+    }
    
 /* FINAL TEXTO */
+
+
+/* CONTACTE */
+.con{
+    margin: 20px auto;  
+    background-color: rgb(255, 255, 255);
+    line-height: 2;
+}
+.col-md-6{
+    margin: 0px;
+}
+/* FINAL CONTACTE */
 
 
 /* HOVER CARTELES */
