@@ -121,6 +121,7 @@
         color: rgb(255, 255, 255);
         text-shadow:  -6px 0px 3px rgb(0, 0, 0);
     }
+
     h6 {text-decoration: none;
         color: #ffffff ;
         font-weight: bold;
@@ -132,7 +133,7 @@
         justify-content: center;
         align-items: center;
         margin: 200 250px;
-        margin-top: 34px;
+        margin-top: 36px;
     }
 
     h6:hover{
@@ -140,7 +141,8 @@
     }
     
     h7 {
-        margin-left: -45px;
+        margin-bottom: 80px;
+        margin-left: -10px;
         color: #0b0b0b;
         font-size: 30px;
         font-weight: bold;
@@ -213,4 +215,10 @@
 
 .soldout:hover {
    opacity: 100%;
+}
+/* FINAL HOVER CARTELES */
+
+/* PRECIOS */
+td:hover {
+  font-weight: bold;
 }
