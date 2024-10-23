@@ -66,12 +66,14 @@
 /* FINAL CAROUSEL */
 
 /* RECUADROS */
-    .container {
+    .container1 {
+        background-image: url(../BG_sangre.jpg);
+        opacity: 50;
         max-width: 1200px;
         margin: 0 auto;
         padding: 20px;
         margin-top: 0px;
-       /*poner B A C K G R O U N D */
+      
     }
 /* FINAL RECUADROS */
 
@@ -92,6 +94,15 @@
         background-color: goldenrod;
         border-radius: 1px;
     }
+
+    .col1 {
+        flex: 1;
+        min-width: 300px;
+        margin: 5px;
+        padding: 0px;
+        background-color: #000000;
+        border-radius: 1px;
+    }
 /* FINAL FILAS Y COLUMNAS */
 
 /* TEXTO */
@@ -101,15 +112,22 @@
         font-size: 60px;
         font-weight: bold;
         text-align: center;
-        font-family: HALLOWEEN;
         letter-spacing: 20px;
     } 
     h2 {
         color: #000000;
         text-align: center;
         font-weight: bold;
+        margin-top: 8px;
     }
-     /* Recurso */
+    
+    h4 {
+        color: #ffffff;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 8px;
+    }
+
     h3 {
         color: #9c0c0c;
         text-align: center;
@@ -159,17 +177,52 @@
         margin-top: 1px;
         margin-bottom: 1px;
     }
-    /* Paragrafos CENTRADO*/
+    /* Paragrafos + tipo*/
     .p1 {
         text-align: center;
         font-weight: bold;
         font-family: HALLOWEEN;
     }
-    /* Tipografia____HALLOWEEN________POR________HACER*/
+    .t1 {
+        text-align: center;
+        font-weight: bold;
+        font-family: ACCION;
+    }
+
+    .t2 {
+        text-align: center;
+        font-weight: bold;
+        font-family: ANIMACION;
+    }
+
+    .t3 {
+        text-align: center;
+        font-weight: bold;
+        font-family: COMEDIA;
+    }
+
+    /* Tipografia_*/
     @font-face {
         font-family: HALLOWEEN;
         src: url(../Halloween.ttf);
     }
+
+    @font-face {
+        font-family: ACCION;
+        src: url(../Movement.ttf);
+    }
+
+    @font-face {
+        font-family: ANIMACION;
+        src: url(../KIdDOS-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: COMEDIA;
+        src: url(../duran.ttf);
+    }
+
+
     /* Caja texto____FALTA QUE SE AJUSTE AL TEXTO*/
     .cajafondo {
         display: inline-block;
