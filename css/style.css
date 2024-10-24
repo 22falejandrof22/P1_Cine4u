@@ -67,7 +67,7 @@
 
 /* RECUADROS */
     .container1 {
-        background-image: url(../BG_sangre.jpg);
+        background-image: url(../BG_telaraña.webp);
         opacity: 50;
         max-width: 1200px;
         margin: 0 auto;
@@ -223,7 +223,7 @@
     }
 
 
-    /* Caja texto____FALTA QUE SE AJUSTE AL TEXTO*/
+    /* Caja texto__*/
     .cajafondo {
         display: inline-block;
         background-color: rgba(255, 255, 255, 0.235);
