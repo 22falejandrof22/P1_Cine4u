@@ -158,7 +158,8 @@
         color: #55a1ff; 
     }
     
-    h7 {
+    .h7 {
+        margin-bottom:25px !important;
         margin-left: -10px;
         color: #0b0b0b;
         font-size: 30px;
